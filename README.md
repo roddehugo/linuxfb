@@ -141,6 +141,20 @@ Some chapters that are interesting in our case:
     13. Changing Console Modes
     17. Looking for further information
 
+Read the interesting documentation from [Toradex][framebuffer-linux].
+
+> The framebuffer (fbdev) is a character device providing access to graphics
+> hardware. Beside the framebuffer, other interfaces exist to access graphics
+> hardware such as the DRI (direct rendering interface) or proprietary interfaces
+> (NVIDIA drivers).
+>
+> Typically, the framebuffer doesn't support any 2D/3D hardware acceleration.
+>
+> The i.MX 6 kernel comes with an open source fbdev driver called
+> mxcfb. The X-Server driver is closed source and called vivante.
+>
+> The i.MX 7 and i.MX 6ULL kernels come with an open source fbdev driver, mxsfb.
+
 [make-implicit-rules]:https://www.gnu.org/software/make/manual/html_node/Implicit-Rules.html
 [fbinfo]:http://raspberrycompote.blogspot.com/2012/12/low-level-graphics-on-raspberry-pi-part_9509.html
 [fbmmap]:https://doc.qt.io/archives/3.3/emb-framebuffer-howto.html
@@ -156,3 +170,4 @@ Some chapters that are interesting in our case:
 [git-notro-fbtft]:https://github.com/notro/fbtft
 [lcd-driver-boot]:https://www.raspberrypi.org/forums/viewtopic.php?t=123676
 [framebuffer-howto]:https://www.tldp.org/HOWTO/text/Framebuffer-HOWTO
+[framebuffer-linux]:https://developer.toradex.com/knowledge-base/framebuffer-linux
