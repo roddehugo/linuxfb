@@ -5,7 +5,7 @@ RM ?= rm -f
 CFLAGS ?= -Wall -Wextra -Werror
 
 # Programs.
-PROGRAMS := fbinfo fbmmap
+PROGRAMS := fbinfo fbmmap vconsole
 
 # Make targets, leverage implicit rules.
 .PHONY: all
