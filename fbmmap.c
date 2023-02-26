@@ -52,7 +52,7 @@ int main() {
   printf("The framebuffer device was mapped to memory successfully.\n");
 
   /* Paint a pretty screen. */
-  int x, y;
+  unsigned int x, y;
   long int location;
   for (y = 0; y < vinfo.yres; y++) {
     for (x = 0; x < vinfo.xres; x++) {
